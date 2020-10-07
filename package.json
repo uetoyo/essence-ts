@@ -1,0 +1,7 @@
+{
+    "name": "essence",
+    "description": "The essential helpers for domain-driven design",
+    "version": "0.1.0",
+    "dependencies": {},
+    "devDependencies": {}
+}
