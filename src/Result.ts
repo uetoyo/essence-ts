@@ -1,5 +1,4 @@
-
-import { Response } from "express"
+import { Response } from "express";
 
 /** 
 HTTP response status codes indicate whether a specific HTTP 
@@ -71,15 +70,16 @@ Responses are grouped in five classes:
 Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 */
-type Code = 201 | 500
+type Code = 201 | 500;
 
-type Message = string | any | any[]
+type Message = string | any | any[];
 
 /**
  * The HTTP result wraps the HTTP response.
- * 
+ *
  * @param response
- * @param code 
- * @param message 
+ * @param code
+ * @param message
  */
-export const Result = (code: number, response: Response, message: Message) => response.status(code).json(message);
+export const Result = (code: number, response: Response, message: Message) =>
+  response.status(code).json(message);
