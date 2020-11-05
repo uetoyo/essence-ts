@@ -16,6 +16,6 @@
     "types": ["node"],
     "typeRoots": ["node_modules/@types"]
   },
-  "include": ["src/**/*.ts", "spec/**/*.ts", "Auth.ts"],
+  "include": ["src/**/*.ts", "spec/**/*.ts"],
   "exclude": ["src/public/"]
 }
