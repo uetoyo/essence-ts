@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uetoyo/essence.git"
+    "url": "git+https://github.com/uetoyo/essence-ts.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
