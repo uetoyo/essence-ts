@@ -1,7 +1,7 @@
 {
   "name": "@uetoyo/essence",
   "description": "The essential helpers for domain-driven design",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc --build tsconfig.prod.json",
